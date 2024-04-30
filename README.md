@@ -5,27 +5,27 @@ This project is a Blog developed using Laravel and Mysql. It provides functional
 ## Navigating the Application
 
         - ** index page**: 
-<img src="./screenshots/home.png" alt="drawing"   width="auto" />
-<img src="./screenshots/mobile.png" alt="drawing"   width="auto" />
-<img src="./screenshots/homePost.png" alt="drawing"   width="auto" />
-<img src="./screenshots/mobilepost.png" alt="drawing"   width="auto" />
+<img src="./screenshot/home.png" alt="drawing"   width="auto" />
+<img src="./screenshot/mobile.png" alt="drawing"   width="auto" />
+<img src="./screenshot/homePost.png" alt="drawing"   width="auto" />
+<img src="./screenshot/mobilepost.png" alt="drawing"   width="auto" />
         - **Sing In  and Sing Up**:  
-<img src="./screenshots/login.png" alt="drawing"   width="auto" />
-<img src="./screenshots/singUp.png" alt="drawing"   width="auto" />
+<img src="./screenshot/login.png" alt="drawing"   width="auto" />
+<img src="./screenshot/singUp.png" alt="drawing"   width="auto" />
         - **dashboard Admin**:
-<img src="./screenshots/admindashbord.png" alt="drawing"   width="auto" />
-<img src="./screenshots/ombilenav.png" alt="drawing"   width="auto" />
-<img src="./screenshots/profilupdate.png" alt="drawing"   width="auto" />
-<img src="./screenshots/myposts.png" alt="drawing"   width="auto" />
-<img src="./screenshots/mobilpost.png" alt="drawing"   width="auto" />
-<img src="./screenshots/listusers.png" alt="drawing"   width="auto" />
-<img src="./screenshots/deleteuser.png" alt="drawing"   width="auto" />
-<img src="./screenshots/allposts.png" alt="drawing"   width="auto" />
-<img src="./screenshots/deletepost.png" alt="drawing"   width="auto" />
-<img src="./screenshots/messagedelete.png" alt="drawing"   width="auto" />
-<img src="./screenshots/updeteporofil.png" alt="drawing"   width="auto" />
+<img src="./screenshot/admindashbord.png" alt="drawing"   width="auto" />
+<img src="./screenshot/ombilenav.png" alt="drawing"   width="auto" />
+<img src="./screenshot/profilupdate.png" alt="drawing"   width="auto" />
+<img src="./screenshot/myposts.png" alt="drawing"   width="auto" />
+<img src="./screenshot/mobilpost.png" alt="drawing"   width="auto" />
+<img src="./screenshot/listusers.png" alt="drawing"   width="auto" />
+<img src="./screenshot/deleteuser.png" alt="drawing"   width="auto" />
+<img src="./screenshot/allposts.png" alt="drawing"   width="auto" />
+<img src="./screenshot/deletepost.png" alt="drawing"   width="auto" />
+<img src="./screenshot/messagedelete.png" alt="drawing"   width="auto" />
+<img src="./screenshot/updeteporofil.png" alt="drawing"   width="auto" />
         - **dashboard user**:
-<img src="./screenshots/userdashbord.png" alt="drawing"   width="auto" />
+<img src="./screenshot/userdashbord.png" alt="drawing"   width="auto" />
 
 ## Setup
 
