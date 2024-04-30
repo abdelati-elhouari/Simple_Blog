@@ -1,0 +1,143 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: transparent;
+  }
+  
+  .nav {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__logo, .nav__toggle {
+    color: #ffff;
+  }
+  
+  .nav__logo {
+    font-weight: 600;
+  }
+  
+  .nav__toggle {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .nav__menu {
+    position: relative;
+  }
+  
+  
+/*   
+  
+  .user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user a, .client-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 1rem;
+    background-size: cover;
+    align-content: center;
+  }
+  
+  
+  .user span:last-child {
+    display: inline-block;
+    margin-left: .3rem;
+    font-size: .8rem;
+  } */
+  @media screen and (max-width: 767px) {
+    .nav__menu {
+      position: fixed;
+      background-color: hsl(190, 100%, 99%);
+      top: 0;
+      right: -100%;
+      width: 70%;
+      height: 100%;
+      box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
+      padding: 3rem;
+      transition: .4s;
+    }
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    align-items: center;
+  }
+  
+  .nav__link {
+    color: hsl(190, 8%, 60%);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .nav__link:hover {
+    color: hsl(190, 24%, 35%);
+  }
+ 
+  .nav__close {
+    width: 19px;
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: hsl(190, 64%, 18%);
+    cursor: pointer;
+  }
+  
+ 
+  
+  .show-menu {
+    right: 0;
+  }
+  
+  .scroll-header {
+    background-color: hsl(190, 100%, 99%);
+    box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
+  }
+  
+  .scroll-header .nav__logo,
+  .scroll-header .nav__toggle {
+    color: hsl(190, 64%, 18%);
+  }
+  
+  @media screen and (min-width: 768px) {
+    body {
+      margin: 0;
+    }
+    .nav {
+      height: calc(3rem + 1.5rem);
+    }
+    .nav__link {
+      color: #ffff;
+      text-transform: initial;
+    }
+    .nav__link:hover {
+      color: #ffff;
+    }
+  
+    .nav__menu {
+      display: flex;
+      column-gap: 1rem;
+    }
+    .nav__list {
+      flex-direction: row;
+      column-gap: 4rem;
+    }
+    .nav__toggle, .nav__close {
+      display: none;
+    }
+  
+    .scroll-header .nav__link {
+      color: hsl(190, 24%, 35%);
+    }
+  
+  }

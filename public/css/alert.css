@@ -1,0 +1,21 @@
+.alert {
+
+    padding: 20px;
+    color: white;
+    position: fixed;
+    z-index: 44;
+    right: 26px;
+    top: 100px;
+    width: max-content;
+    border-radius: 17px;
+    text-align: center;
+    font-size: 17px;
+}
+.success{
+      background: #7df57d;
+    }
+    .error{
+        background: #e64646;
+        
+  }
+ 

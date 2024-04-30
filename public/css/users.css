@@ -1,0 +1,128 @@
+.main-content {
+    margin-left: 165px;
+    width: calc(100% - 165px);
+    transition: margin-left 300ms;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.page-content {
+    padding: 1.3rem 1rem;
+    background: #f1f4f9;
+}
+
+.analytics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+.records {
+    box-shadow: 0px 5px 5px -5px rgb(0 0 0 / 10%);
+    background: #fff;
+    border-radius: 3px;
+}
+
+
+
+.table-responsive {
+    width: 100%;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead tr {
+    background: #e9edf2;
+}
+
+table thead th {
+    padding: 1rem 0rem;
+    text-align: left;
+    color: #444;
+    font-size: .9rem;
+}
+
+table thead th:first-child {
+    padding-left: 1rem;
+}
+
+table tbody td {
+    padding: 1rem 0rem;
+    color: #444;
+}
+
+table tbody td:first-child {
+    padding-left: 1rem;
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dee2e8;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+}
+
+.client-img {
+    margin-right: .5rem;
+    border: 2px solid #b0b0b0;
+    height: 45px;
+    width: 45px;
+}
+.profil {
+    width: 38px;
+    height: 39px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.client-info h4 {
+    color: #555;
+    font-size: .95rem;
+}
+
+.client-info small {
+    color: #777;
+}
+
+.actions span {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
+.paid {
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    color: var(--main-color);
+    background: #e5f8ed;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    font-size: .8rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .analytics {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .analytics {
+        grid-template-columns: 100%;
+    } 
+    table {
+        width: 900px;
+    }
+}

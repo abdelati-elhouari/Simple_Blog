@@ -1,0 +1,256 @@
+.home__container {
+    display:flex ;
+    justify-content: center;
+}
+.home__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 73vh;
+    object-fit: cover;
+    object-position: 83%;
+}
+.header {
+    background-color: hsl(190, 100%, 99%) !important;
+    box-shadow: 0 0 4px rgba(14, 55, 63, 0.15) !important;
+}
+.nav__logo, .nav__toggle,.nav__link {
+    color: hsl(190, 64%, 18%) !important;
+}
+.section {
+    padding: 0 !important;
+}
+.login_data {
+    padding: 41px 30px 40px 30px;
+    border-top: 10px solid springgreen;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+
+    .home__container {
+        height: 75vh;
+        grid-template-rows: 1.8fr .5fr;
+    }
+    .section {
+        padding: 7rem 0 2rem;
+        margin: 70px 0 0 0 !important;
+    }
+    .login_data {
+        width: 53%;
+    }
+}
+
+&
+.home__container {
+    position: relative;
+    height: calc(73vh - 3rem);
+    align-content: center;
+    row-gap: 3rem;
+}
+
+.login__container {
+    display: flex;
+    padding:  20px;
+    justify-content: center;
+    background-color: #1c2841;
+}
+.login_img{
+    width: 100%;
+}
+
+
+.login__img{
+    width: 100%;
+    background-image: url(./);
+}
+
+.icon_login {
+    margin: 0px 0px 24px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.icon_login .icon{
+    width: 130px;
+    height: 130px;
+    
+}
+
+/* .input_field{
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+}
+.input{
+    position: absolute;
+    width: 100%;
+    outline: none;
+    font-size: 2.2em;
+    padding: 0 30px;
+    line-height: 80px;
+    border-radius: 10px;
+    border: 2px solid #f0ffff;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+
+}
+
+.input_field .label{
+  position: absolute;
+  font-size: 1.6em;
+  color: #f0ffff;
+  padding: 0 25px;
+  margin: 0 20px;
+  background-color: #1c2841;
+  transition: 0.2s ease;
+  
+  
+} 
+
+.input:focus ,  .input:valid {
+    color: #66ff00;
+    border: 4px solid #66ff00 ;
+}
+
+.input:focus +  .label:focus, .input:valid + .label:valid  {
+    color: #66ff00;
+    height: 3px;
+    line-height: 30px;
+    transform: translate(-15px , -16px) scale(0.88);
+    z-index: 1111;
+} */
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+.input-group {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-group input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 10px;
+    background: transparent;
+    border: 1.2px solid #fff;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: 0;
+    font-size: 12px;
+    background: #7d2ae8;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+.forgot {
+    display: flex;
+    justify-content: end;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.btn {
+    padding: 6px 71px;
+    background: #7d2ae8;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 14px;
+    box-shadow: 0 0 8px #7d2ae8;
+    font-size: 24px;
+    color: #fff;
+    /* letter-spacing: 1px; */
+    cursor: pointer;
+}
+
+/* .menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+} */
+
+.nav__menu ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+.nav__menu ul li:focus-within > ul {
+    display: block;
+}
+
+.formbold-mb-5 {
+    margin-bottom: 20px;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 48px;
+  }
+
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    /* background: white; */
+  }
+
+  .formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
